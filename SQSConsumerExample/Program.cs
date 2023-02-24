@@ -35,5 +35,5 @@ while (!cancellationTokenSource.IsCancellationRequested)
         Console.WriteLine($"Deleted MessageId = {message.MessageId} with Status Code = {deletedMessageResponse.HttpStatusCode}");
     }
 
-    await Task.Delay(3000);
+    await Task.Delay(3000, cancellationTokenSource.Token);
 }

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSPublisherExample", "SQSPublisherExample\SQSPublisherExample.csproj", "{08505378-26A3-464D-9857-03191909C84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSConsumerExample", "SQSConsumerExample\SQSConsumerExample.csproj", "{4305053C-B6B7-41E0-A97B-4A9EFD240B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSConsumerExample", "SQSConsumerExample\SQSConsumerExample.csproj", "{4305053C-B6B7-41E0-A97B-4A9EFD240B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSConsumerAppExample", "SQSConsumerAppExample\SQSConsumerAppExample.csproj", "{8CFA3363-BE54-4EFD-9151-7C9140D10184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
