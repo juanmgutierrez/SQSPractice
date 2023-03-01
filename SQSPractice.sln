@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSPublisherExample", "SQSPublisherExample\SQSPublisherExample.csproj", "{08505378-26A3-464D-9857-03191909C84A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C815E0D3-6507-448A-A8B9-AB3F2E0579B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSConsumerExample", "SQSConsumerExample\SQSConsumerExample.csproj", "{4305053C-B6B7-41E0-A97B-4A9EFD240B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSPublisherExample", "src\SQSPublisherExample\SQSPublisherExample.csproj", "{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQSConsumerAppExample", "SQSConsumerAppExample\SQSConsumerAppExample.csproj", "{8CFA3363-BE54-4EFD-9151-7C9140D10184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSConsumerExample", "src\SQSConsumerExample\SQSConsumerExample.csproj", "{28E85017-C5F7-4963-8B15-7805C08E1DCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQSConsumerAppExample", "src\SQSConsumerAppExample\SQSConsumerAppExample.csproj", "{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08505378-26A3-464D-9857-03191909C84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08505378-26A3-464D-9857-03191909C84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08505378-26A3-464D-9857-03191909C84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08505378-26A3-464D-9857-03191909C84A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4305053C-B6B7-41E0-A97B-4A9EFD240B32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CFA3363-BE54-4EFD-9151-7C9140D10184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E85017-C5F7-4963-8B15-7805C08E1DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E85017-C5F7-4963-8B15-7805C08E1DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E85017-C5F7-4963-8B15-7805C08E1DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E85017-C5F7-4963-8B15-7805C08E1DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{576030E5-FD6A-41D4-A6A2-F7C8D5BB8566} = {C815E0D3-6507-448A-A8B9-AB3F2E0579B1}
+		{28E85017-C5F7-4963-8B15-7805C08E1DCC} = {C815E0D3-6507-448A-A8B9-AB3F2E0579B1}
+		{28D2B140-0E78-4FC6-B42E-CCDCE1B280D9} = {C815E0D3-6507-448A-A8B9-AB3F2E0579B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A6516FC-FE3E-4D7C-9315-AAF18F5EB396}
